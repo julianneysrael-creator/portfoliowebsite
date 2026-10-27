@@ -21,6 +21,7 @@
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;
   --script: "Yellowtail", cursive;
+  --serif: "Instrument Serif", Georgia, serif;
 
   --max: 1180px;
   --gutter: clamp(16px, 4vw, 40px);
@@ -201,7 +202,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .pill {
   display: inline-flex; align-items: center; height: 28px; padding: 0 12px; border-radius: 999px;
-  font-size: 12px; font-weight: 500; background: rgba(255, 255, 255, .75); border: 1px solid #fff; color: var(--ink-2);
+  font-family: var(--serif); font-size: 16px; font-weight: 400; letter-spacing: 0;
+  background: rgba(255, 255, 255, .75); border: 1px solid #fff; color: var(--ink-2);
 }
 .pill.blue { background: var(--blue); border-color: var(--blue); color: #fff; }
 .link-arrow { font-size: 14px; font-weight: 500; display: inline-flex; gap: 6px; align-items: center; }
