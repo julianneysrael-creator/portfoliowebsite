@@ -20,7 +20,7 @@ Search the HTML for `[` to find every placeholder.
 
 - **Contact links:** replace `hello@example.com` and the LinkedIn/YouTube `href="#"` links in each page's footer.
 - **Resume:** add `assets/Jules-Ysrael-Resume.pdf`.
-- **Headshot:** add `assets/img/headshot.jpg` and swap the placeholder in `index.html` (and the photo in `about.html`).
+- **About photo (optional):** the About page reuses `assets/img/headshot.jpg`; swap in a different shot if you like.
 - **Case studies:** role, timeframe, one outcome number, "What I learned", and 2 visuals per study.
   - Vert: installs/views driven, CPI, renewal rate, negotiation savings, Content Hub time saved, or IG growth.
   - Lazada: 3.3 Megasale GMV/orders, or the sign-up lift from the onboarding redesign.
