@@ -18,7 +18,6 @@ assets/img/           Put photos and screenshots here
 
 Search the HTML for `[` to find every placeholder.
 
-- **Email:** replace `hello@example.com` in every page (social links are already set).
 - **Resume:** add `assets/Jules-Ysrael-Resume.pdf`.
 - **About photo (optional):** the About page reuses `assets/img/headshot.jpg`; swap in a different shot if you like.
 - **Case studies:** role, timeframe, one outcome number, "What I learned", and 2 visuals per study.
