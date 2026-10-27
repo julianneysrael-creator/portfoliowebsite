@@ -7,94 +7,114 @@
   <meta name="description" content="Student leadership, volunteering, and education.">
   <meta property="og:title" content="Leadership & Impact | Jules Ysrael">
   <meta property="og:description" content="Student leadership, volunteering, and education.">
+  <meta name="theme-color" content="#f1f1f4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="index.html">Jules Ysrael</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
-      <nav class="nav" id="nav">
-        <a href="index.html">Home</a>
-        <a href="marketing.html">Marketing &amp; Growth</a>
-        <a href="media.html">Media &amp; Hosting</a>
-        <a href="leadership.html" aria-current="page">Leadership &amp; Impact</a>
-        <a href="about.html">About</a>
-        <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
-      </nav>
+      <div class="bar">
+        <a class="logo" href="index.html">jules ysrael<span>.</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav class="nav" id="nav">
+          <a href="index.html">Home</a>
+          <a href="marketing.html">Marketing &amp; Growth</a>
+          <a href="media.html">Media &amp; Hosting</a>
+          <a href="leadership.html" aria-current="page">Leadership &amp; Impact</a>
+          <a href="about.html">About</a>
+          <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="page-hero">
+      <div class="ambient" aria-hidden="true"></div>
       <div class="wrap reveal">
         <span class="eyebrow">Leadership &amp; Impact</span>
-        <h1>I build communities and give back through <span class="serif">the same skills I use at work.</span></h1>
+        <h1 class="display">leadership<br>&amp; impact<span class="dot">.</span></h1>
+        <p class="lede">I build communities and give back through <span class="script">the same skills</span> I use at work.</p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" style="padding-top:0">
       <div class="wrap">
-        <div class="section-head reveal"><div><span class="eyebrow">Student leadership</span><h2>Building rooms people want to be in</h2></div></div>
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Student leadership</span><h2 class="display h-section">leading<span class="dot">.</span></h2></div>
+          
+        </div>
         <div class="rows">
-          <div class="reveal">
-            <div><h3>NUS Asian Undergraduate Symposium</h3></div>
+          <div class="row card reveal">
+            <div class="head"><span class="badge">01</span><h3>NUS Asian Undergraduate Symposium</h3></div>
             <div>
               <p>Student Councilor, 1 of 11. Participant, 1 of 150, with Farmagogo pitched to #1.</p>
-              <div class="grid-2" style="gap:16px;margin-top:20px">
-                <div><div class="video"><span>Talk &middot; 2023</span></div></div>
-                <div><div class="video"><span>Talk &middot; 2024</span></div></div>
+              <ul class="chips"><li>Student Councilor &middot; 1 of 11</li><li>Participant &middot; 1 of 150</li><li>Farmagogo #1 pitch</li></ul>
+              <div class="grid-2" style="gap:12px;margin-top:20px">
+                <div class="video"><span>talk &middot; 2023</span></div>
+                <div class="video"><span>talk &middot; 2024</span></div>
               </div>
             </div>
           </div>
-          <div class="reveal">
-            <div><h3>Ateneo CODE XChange 2022</h3></div>
-            <div><p>Externals Head. Built a partner pipeline of 60+ organizations. Project of the Year.</p></div>
+          <div class="row card reveal">
+            <div class="head"><span class="badge">02</span><h3>Ateneo CODE XChange 2022</h3></div>
+            <div><p>Externals Head. Built a partner pipeline of 60+ organizations.</p><ul class="chips"><li>60+ orgs</li><li>Project of the Year</li></ul></div>
           </div>
-          <div class="reveal">
-            <div><h3>BYTE</h3></div>
-            <div><p>Associate VP for Externals. Ran Youth in Tech (260+ attendees) and launched the BYTECamp podcast.</p></div>
+          <div class="row card reveal">
+            <div class="head"><span class="badge">03</span><h3>BYTE</h3></div>
+            <div><p>Associate VP for Externals. Ran Youth in Tech and launched the BYTECamp podcast.</p><ul class="chips"><li>Youth in Tech &middot; 260+ attendees</li><li>BYTECamp podcast</li></ul></div>
           </div>
-          <div class="reveal">
-            <div><h3>BCG Emeralds Program</h3></div>
+          <div class="row card reveal">
+            <div class="head"><span class="badge">04</span><h3>BCG Emeralds Program</h3></div>
             <div><p>1 of 20 students selected.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" style="padding-top:0">
       <div class="wrap">
-        <div class="section-head reveal"><div><span class="eyebrow">Volunteering</span><h2>Giving back</h2></div></div>
-        <ul class="item-list reveal">
-          <li><b>SheTalksAsia</b><span class="meta">Volunteer Content Lead</span><p>UN Women leadership event and SheTalksAsia Summit 2026.</p></li>
-          <li><b>Ateneo Senior High School</b><span class="meta">Jan 2026</span><p>Taught a class on sports media careers.</p></li>
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Volunteering</span><h2 class="display h-section">giving back<span class="dot">.</span></h2></div>
+          
+        </div>
+        <ul class="item-list card reveal">
+          <li><b>SheTalksAsia</b><span class="meta">VOLUNTEER CONTENT LEAD</span><p>UN Women leadership event and SheTalksAsia Summit 2026.</p></li>
+          <li><b>Ateneo Senior High School</b><span class="meta">JAN 2026</span><p>Taught a class on sports media careers.</p></li>
         </ul>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" style="padding-top:0">
       <div class="wrap">
-        <div class="section-head reveal"><div><span class="eyebrow">Education</span><h2>Ateneo de Manila University</h2></div></div>
-        <div class="rows reveal">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Education</span><h2 class="display h-section">education<span class="dot">.</span></h2></div>
+          
+        </div>
+        <div class="row card reveal">
+          <div class="head"><span class="badge">AdMU</span><h3>Ateneo de Manila University</h3></div>
           <div>
-            <div><h3>BS Information Technology Entrepreneurship</h3></div>
-            <div><p>Specialization in International Business.<br>Magna Cum Laude &middot; QPI 3.86</p></div>
+            <p>BS Information Technology Entrepreneurship, Specialization in International Business.</p>
+            <ul class="chips"><li>Magna Cum Laude</li><li>QPI 3.86</li></ul>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="wrap cta reveal">
-        <span class="eyebrow">Contact</span>
-        <h2>Let&rsquo;s <span class="serif">talk.</span></h2>
-        <div class="btns">
-          <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk</a>
-          <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+      <div class="wrap">
+        <div class="cta-card card reveal">
+          <div class="ambient" aria-hidden="true"></div>
+          <span class="script sig" aria-hidden="true">say hi!</span>
+          <span class="eyebrow">Contact</span>
+          <p class="display">let&rsquo;s talk<span class="dot">.</span></p>
+          <div class="btns">
+            <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+          </div>
         </div>
       </div>
     </section>
@@ -105,11 +125,11 @@
       <ul>
         <li><a href="mailto:hello@example.com">Email</a></li>
         <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram @julesysrael</a></li>
+        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram</a></li>
         <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a></li>
+        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Resume &darr;</a></li>
       </ul>
-      <span class="muted">&copy; <span id="year">2026</span> Jules Ysrael</span>
+      <span class="muted">@julesysrael &middot; &copy; <span id="year">2026</span></span>
     </div>
   </footer>
   <script src="assets/main.js"></script>

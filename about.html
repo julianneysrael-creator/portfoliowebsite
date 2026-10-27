@@ -7,91 +7,122 @@
   <meta name="description" content="My story, what I care about, and what I'm into right now.">
   <meta property="og:title" content="About | Jules Ysrael">
   <meta property="og:description" content="My story, what I care about, and what I'm into right now.">
+  <meta name="theme-color" content="#f1f1f4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="index.html">Jules Ysrael</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
-      <nav class="nav" id="nav">
-        <a href="index.html">Home</a>
-        <a href="marketing.html">Marketing &amp; Growth</a>
-        <a href="media.html">Media &amp; Hosting</a>
-        <a href="leadership.html">Leadership &amp; Impact</a>
-        <a href="about.html" aria-current="page">About</a>
-        <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
-      </nav>
+      <div class="bar">
+        <a class="logo" href="index.html">jules ysrael<span>.</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav class="nav" id="nav">
+          <a href="index.html">Home</a>
+          <a href="marketing.html">Marketing &amp; Growth</a>
+          <a href="media.html">Media &amp; Hosting</a>
+          <a href="leadership.html">Leadership &amp; Impact</a>
+          <a href="about.html" aria-current="page">About</a>
+          <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="wrap reveal">
-        <span class="eyebrow">About</span>
-        <h1>From IT Entrepreneurship student to behind a mic <span class="serif">and a growth dashboard.</span></h1>
+    <section class="hero">
+      <div class="ambient" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="hero-top reveal">
+          <span>@julesysrael</span>
+          <span class="barcode" aria-hidden="true"></span>
+        </div>
+        <div class="hero-display reveal">
+          <h1 class="display">about<br>me<span class="dot">.</span></h1>
+          <div class="hero-photo">
+            <div class="frame"><span>photo.jpg</span></div>
+            <span class="script sig" aria-hidden="true">Jules</span>
+          </div>
+        </div>
+        <div class="hero-intro reveal">
+          <h2 class="h-sub">nice to meet you!</h2>
+          <div>
+            <p class="lede" style="margin-bottom:12px">From IT Entrepreneurship student to behind a mic and a growth dashboard.</p>
+            <p class="lede todo">[Your story in a few short paragraphs: how studying IT Entrepreneurship led you into media, creators, and growth, and why you love building the systems behind them.]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">What I care about</span><h2 class="display h-section">i care about<span class="dot">.</span></h2></div>
+          
+        </div>
+        <div class="logos reveal">
+          <span>marketing</span><i class="spark"></i><span>media</span><i class="spark"></i><span>startups</span><i class="spark"></i><span>growth</span><i class="spark"></i><span class="select">building systems</span><span class="cursor" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Off the clock</span><h2 class="display h-section">off the clock<span class="dot">.</span></h2></div>
+          
+        </div>
+        <div class="grid-3 reveal">
+          <div><div class="photo">hiking</div><div class="video-caption"><span>Hiking</span></div></div>
+          <div><div class="photo">reading</div><div class="video-caption"><span>Reading memoirs</span></div></div>
+          <div><div class="photo">traveling</div><div class="video-caption"><span>Traveling</span></div></div>
+        </div>
       </div>
     </section>
 
     <section class="section" style="padding-top:0">
       <div class="wrap grid-2">
-        <div class="headshot reveal"><span>Photo</span></div>
-        <div class="reveal">
-          <span class="eyebrow">My story</span>
-          <p class="lede">[Your story in a few short paragraphs: how studying IT Entrepreneurship led you into media, creators, and growth, and why you love building the systems behind them.]</p>
-          <span class="eyebrow" style="margin-top:40px">What I care about</span>
-          <ul class="proof-list"><li>Marketing</li><li>Media</li><li>Startups</li><li>Growth</li><li>Building systems</li></ul>
+        <div class="block card reveal">
+          <span class="eyebrow">Bookshelf</span>
+          <ul class="item-list" style="padding:0">
+            <li><b>[Book title]</b><span class="meta">[AUTHOR]</span><p>[One line on why.]</p></li>
+            <li><b>[Book title]</b><span class="meta">[AUTHOR]</span><p>[One line on why.]</p></li>
+            <li><b>[Book title]</b><span class="meta">[AUTHOR]</span><p>[One line on why.]</p></li>
+          </ul>
+        </div>
+        <div class="grid-2" style="grid-template-columns:1fr">
+          <div class="block card reveal">
+            <span class="eyebrow">In my ears</span>
+            <ul class="item-list" style="padding:0">
+              <li><b>[Podcast]</b></li>
+              <li><b>[Podcast]</b></li>
+            </ul>
+          </div>
+          <div class="block card reveal">
+            <span class="eyebrow">Currently</span>
+            <ul class="item-list" style="padding:0">
+              <li><b>Reading</b><span class="meta">[&hellip;]</span></li>
+              <li><b>Learning</b><span class="meta">[&hellip;]</span></li>
+              <li><b>Planning</b><span class="meta">[&hellip;]</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap">
-        <div class="section-head reveal"><div><span class="eyebrow">Off the clock</span><h2>Hiking, memoirs, and new places</h2></div></div>
-        <div class="grid-3 reveal">
-          <div class="photo">Hiking</div>
-          <div class="photo">Reading</div>
-          <div class="photo">Traveling</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap grid-2">
-        <div class="reveal">
-          <span class="eyebrow">Bookshelf</span>
-          <ul class="item-list">
-            <li><b>[Book title]</b><span class="meta">[Author]</span><p>[One line on why.]</p></li>
-            <li><b>[Book title]</b><span class="meta">[Author]</span><p>[One line on why.]</p></li>
-            <li><b>[Book title]</b><span class="meta">[Author]</span><p>[One line on why.]</p></li>
-          </ul>
-        </div>
-        <div class="reveal">
-          <span class="eyebrow">In my ears</span>
-          <ul class="item-list">
-            <li><b>[Podcast]</b></li>
-            <li><b>[Podcast]</b></li>
-          </ul>
-          <span class="eyebrow" style="margin-top:48px">Currently</span>
-          <ul class="item-list">
-            <li><b>Reading</b><span class="meta">[&hellip;]</span></li>
-            <li><b>Learning</b><span class="meta">[&hellip;]</span></li>
-            <li><b>Planning</b><span class="meta">[&hellip;]</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap cta reveal">
-        <span class="eyebrow">Contact</span>
-        <h2>Let&rsquo;s <span class="serif">talk.</span></h2>
-        <div class="btns">
-          <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk</a>
-          <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+        <div class="cta-card card reveal">
+          <div class="ambient" aria-hidden="true"></div>
+          <span class="script sig" aria-hidden="true">say hi!</span>
+          <span class="eyebrow">Contact</span>
+          <p class="display">let&rsquo;s talk<span class="dot">.</span></p>
+          <div class="btns">
+            <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+          </div>
         </div>
       </div>
     </section>
@@ -102,11 +133,11 @@
       <ul>
         <li><a href="mailto:hello@example.com">Email</a></li>
         <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram @julesysrael</a></li>
+        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram</a></li>
         <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a></li>
+        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Resume &darr;</a></li>
       </ul>
-      <span class="muted">&copy; <span id="year">2026</span> Jules Ysrael</span>
+      <span class="muted">@julesysrael &middot; &copy; <span id="year">2026</span></span>
     </div>
   </footer>
   <script src="assets/main.js"></script>

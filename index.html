@@ -7,53 +7,68 @@
   <meta name="description" content="I grow startups through creators, content, and the systems behind them.">
   <meta property="og:title" content="Jules Ysrael">
   <meta property="og:description" content="I grow startups through creators, content, and the systems behind them.">
+  <meta name="theme-color" content="#f1f1f4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="index.html">Jules Ysrael</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
-      <nav class="nav" id="nav">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="marketing.html">Marketing &amp; Growth</a>
-        <a href="media.html">Media &amp; Hosting</a>
-        <a href="leadership.html">Leadership &amp; Impact</a>
-        <a href="about.html">About</a>
-        <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
-      </nav>
+      <div class="bar">
+        <a class="logo" href="index.html">jules ysrael<span>.</span></a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav class="nav" id="nav">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="marketing.html">Marketing &amp; Growth</a>
+          <a href="media.html">Media &amp; Hosting</a>
+          <a href="leadership.html">Leadership &amp; Impact</a>
+          <a href="about.html">About</a>
+          <a href="assets/Jules-Ysrael-Resume.pdf" download>Resume</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="wrap hero-grid">
-        <div class="reveal">
-          <span class="eyebrow">Creator &middot; Brand &middot; Founder</span>
-          <h1>I grow startups through creators, content, and <span class="serif">the systems behind them.</span></h1>
-          <p class="lede">Media proves I can communicate and perform under pressure. Marketing proves I drive results. My IT Entrepreneurship background and love of process prove I can scale both.</p>
-          <div class="btns">
-            <a class="btn btn-primary" href="#work">View my work</a>
-            <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+      <div class="ambient" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="hero-top reveal">
+          <div class="pills"><span class="pill blue">Growth &amp; Creator Marketing</span><span class="pill">Creator</span><span class="pill">Brand</span><span class="pill">Founder</span></div>
+          <span class="barcode" aria-hidden="true"></span>
+        </div>
+        <div class="hero-display reveal">
+          <p class="display">hi, i&rsquo;m<br>jules<span class="dot">.</span></p>
+          <div class="hero-photo">
+            <div class="frame">
+              <!-- Replace with: <img src="assets/img/headshot.jpg" alt="Jules Ysrael"> -->
+              <span>headshot.jpg</span>
+            </div>
+            <span class="script sig" aria-hidden="true">Jules</span>
           </div>
         </div>
-        <div class="headshot reveal">
-          <!-- Replace with: <img src="assets/img/headshot.jpg" alt="Jules Ysrael"> -->
-          <span>Headshot</span>
+        <div class="hero-intro reveal">
+          <h1>I grow startups through creators, content, and the <span class="select">systems</span><span class="cursor" aria-hidden="true"></span> behind them.</h1>
+          <div>
+            <p class="lede">Media proves I can communicate and perform under pressure. Marketing proves I drive results. My IT Entrepreneurship background and love of process prove I can scale both.</p>
+            <div class="btns">
+              <a class="btn btn-primary" href="#work">View my work <span class="arrow">&rarr;</span></a>
+              <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section aria-label="Highlights">
       <div class="wrap">
-        <div class="proof reveal">
-          <div><strong>80+</strong><span>creator partnerships</span></div>
-          <div><strong>300+</strong><span>creators systematized</span></div>
-          <div><strong>1,000+</strong><span>affiliate leads</span></div>
-          <div><strong>129+</strong><span>live broadcast reports</span></div>
+        <div class="proof card reveal">
+          <div><strong>80<i>+</i></strong><span>creator partnerships</span></div>
+          <div><strong>300<i>+</i></strong><span>creators systematized</span></div>
+          <div><strong>1,000<i>+</i></strong><span>affiliate leads</span></div>
+          <div><strong>129<i>+</i></strong><span>live broadcast reports</span></div>
         </div>
       </div>
     </section>
@@ -61,81 +76,85 @@
     <section class="section" id="work">
       <div class="wrap">
         <div class="section-head reveal">
-          <div>
-            <span class="eyebrow">Featured work</span>
-            <h2>Four growth stories and one microphone.</h2>
-          </div>
+          <div><span class="eyebrow">Featured work</span><h2 class="display h-section">selected work<span class="dot">.</span></h2></div>
           <a class="link-arrow" href="marketing.html">All marketing work &rarr;</a>
         </div>
         <div class="work-grid">
-          <a class="work-card reveal" href="work/vert.html">
+          <a class="work-card card reveal" href="work/vert.html">
             <div>
-              <span class="tag">Startup</span>
-              <h3>Vert App Studios</h3>
+              <div class="top"><span class="tag">Startup</span><span class="badge">01</span></div>
+              <h3>vert app studios</h3>
               <p>Creator partnerships, the Content Hub I built, and the brand Instagram.</p>
             </div>
-            <div class="metric"><span><b>80+</b> creators &middot; <b>300+</b> in the Content Hub</span><span aria-hidden="true">&rarr;</span></div>
+            <div class="metric"><span><b>80+</b> creators &middot; <b>300+</b> in the Content Hub</span><span class="go" aria-hidden="true">&rarr;</span></div>
           </a>
-          <a class="work-card reveal" href="work/lazada.html">
+          <a class="work-card card reveal" href="work/lazada.html">
             <div>
-              <span class="tag">E-commerce</span>
-              <h3>Lazada</h3>
+              <div class="top"><span class="tag">E-commerce</span><span class="badge">02</span></div>
+              <h3>lazada</h3>
               <p>The Affiliate Program: creator acquisition at scale.</p>
             </div>
-            <div class="metric"><span><b>1,000+</b> affiliate leads &middot; <b>60+</b> KOLs</span><span aria-hidden="true">&rarr;</span></div>
+            <div class="metric"><span><b>1,000+</b> affiliate leads &middot; <b>60+</b> KOLs</span><span class="go" aria-hidden="true">&rarr;</span></div>
           </a>
-          <a class="work-card reveal" href="work/collabconnect.html">
+          <a class="work-card card reveal" href="work/collabconnect.html">
             <div>
-              <span class="tag">Founder</span>
-              <h3>CollabConnect</h3>
+              <div class="top"><span class="tag">Founder</span><span class="badge">03</span></div>
+              <h3>collabconnect</h3>
               <p>A co-founded venture: discovery, positioning, and pricing.</p>
             </div>
-            <div class="metric"><span><b>3</b> paying customers</span><span aria-hidden="true">&rarr;</span></div>
+            <div class="metric"><span><b>3</b> paying customers</span><span class="go" aria-hidden="true">&rarr;</span></div>
           </a>
-          <a class="work-card reveal" href="work/pampers.html">
+          <a class="work-card card reveal" href="work/pampers.html">
             <div>
-              <span class="tag">FMCG</span>
-              <h3>P&amp;G Pampers</h3>
+              <div class="top"><span class="tag">FMCG</span><span class="badge">04</span></div>
+              <h3>p&amp;g pampers</h3>
               <p>An end-to-end growth strategy built on consumer insight.</p>
             </div>
-            <div class="metric"><span><b>35%</b> growth target &middot; <b>20</b> consumer interviews</span><span aria-hidden="true">&rarr;</span></div>
+            <div class="metric"><span><b>35%</b> growth target &middot; <b>20</b> consumer interviews</span><span class="go" aria-hidden="true">&rarr;</span></div>
           </a>
-          <a class="work-card wide reveal" href="media.html">
+          <a class="work-card card feature reveal" href="media.html">
+            <span class="script" aria-hidden="true">on air</span>
             <div>
-              <span class="tag">Media</span>
-              <h3>Formula 1 DHL Commentator Challenge</h3>
+              <div class="top"><span class="tag">Media</span></div>
+              <h3>formula 1 dhl commentator challenge</h3>
               <p>Top 3 Finalist. Plus 129+ live reports from UAAP Season 86 and coverage across collegiate, professional, and international leagues.</p>
             </div>
-            <div class="metric"><span><b>Top 3</b> finalist &middot; Nov 2026</span><span aria-hidden="true">&rarr;</span></div>
+            <div class="metric"><span><b>Top 3</b> finalist &middot; Nov 2026</span><span class="go" aria-hidden="true">&rarr;</span></div>
           </a>
         </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <span class="eyebrow reveal">Brands I&rsquo;ve worked with</span>
+        <div class="logos reveal">
+          <span>P&amp;G</span><i class="spark"></i><span>Lazada</span><i class="spark"></i><span>Samsung</span><i class="spark"></i><span>Revlon</span><i class="spark"></i><span>Cetaphil</span><i class="spark"></i><span>Grab</span><i class="spark"></i><span>Sperry</span><i class="spark"></i><span>Nivea</span><i class="spark"></i><span>Glade</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <figure class="quote card reveal" style="margin:0">
+          <span class="mark grad-text" aria-hidden="true">&ldquo;</span>
+          <blockquote>[Testimonial quote goes here.]</blockquote>
+          <figcaption><cite>[Name], [Title, Company]</cite></figcaption>
+        </figure>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap">
-        <span class="eyebrow reveal">Brands I&rsquo;ve worked with</span>
-        <div class="logos reveal">
-          <span>P&amp;G</span><span>Lazada</span><span>Samsung</span><span>Revlon</span><span>Cetaphil</span><span>Grab</span><span>Sperry</span><span>Nivea</span><span>Glade</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap quote reveal">
-        <span class="eyebrow">Kind words</span>
-        <blockquote>&ldquo;[Testimonial quote goes here.]&rdquo;</blockquote>
-        <cite>[Name], [Title, Company]</cite>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="wrap cta reveal">
-        <span class="eyebrow">Contact</span>
-        <h2>Let&rsquo;s <span class="serif">talk.</span></h2>
-        <div class="btns">
-          <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk</a>
-          <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+        <div class="cta-card card reveal">
+          <div class="ambient" aria-hidden="true"></div>
+          <span class="script sig" aria-hidden="true">say hi!</span>
+          <span class="eyebrow">Contact</span>
+          <p class="display">let&rsquo;s talk<span class="dot">.</span></p>
+          <div class="btns">
+            <a class="btn btn-primary" href="mailto:hello@example.com">Let&rsquo;s talk <span class="arrow">&rarr;</span></a>
+            <a class="btn btn-ghost" href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a>
+          </div>
         </div>
       </div>
     </section>
@@ -146,11 +165,11 @@
       <ul>
         <li><a href="mailto:hello@example.com">Email</a></li>
         <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram @julesysrael</a></li>
+        <li><a href="https://www.instagram.com/julesysrael/" target="_blank" rel="noopener">Instagram</a></li>
         <li><a href="#" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Download resume</a></li>
+        <li><a href="assets/Jules-Ysrael-Resume.pdf" download>Resume &darr;</a></li>
       </ul>
-      <span class="muted">&copy; <span id="year">2026</span> Jules Ysrael</span>
+      <span class="muted">@julesysrael &middot; &copy; <span id="year">2026</span></span>
     </div>
   </footer>
   <script src="assets/main.js"></script>
