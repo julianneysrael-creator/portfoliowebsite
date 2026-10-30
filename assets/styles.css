@@ -407,7 +407,8 @@ tr.link-row:hover td:first-child a { color: var(--violet); }
 .case-body p { color: var(--ink-2); margin: 0; }
 .case-body ul.bullets li { padding-left: 20px; position: relative; margin-bottom: 8px; color: var(--ink-2); }
 .case-body ul.bullets li::before { content: ""; position: absolute; left: 0; top: .62em; width: 8px; height: 8px; border-radius: 50%; background: var(--grad); }
-.results { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 24px; }
+.results { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px; }
+.results:has(> :nth-child(4)) { grid-template-columns: repeat(2, 1fr); }
 .results strong { display: block; font-family: var(--display); font-size: clamp(28px, 3vw, 38px); font-weight: 700; letter-spacing: -0.06em; line-height: 1; margin-bottom: 6px; }
 .results span { font-size: 13px; color: var(--ink-2); }
 @media (max-width: 760px) { .case-body, .case-body > section.span { grid-template-columns: 1fr; } }
@@ -456,3 +457,17 @@ tr.link-row:hover td:first-child a { color: var(--violet); }
 a.video { transition: transform .2s, box-shadow .2s; }
 a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(155, 92, 246, .6); }
 .row .head { align-self: start; }
+
+/* ---------- Brand logo grid ---------- */
+.brand-grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 10px; }
+.brand { height: 76px; border-radius: var(--r-sm); display: grid; place-items: center; padding: 14px; transition: transform .2s, box-shadow .2s; }
+.brand:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -18px rgba(91, 124, 250, .55); }
+.brand img { max-width: 100%; max-height: 28px; object-fit: contain; }
+.brand-revlon img { max-height: 18px; }
+.brand-sperry img { max-height: 22px; }
+.brand-samsung img { max-height: 16px; }
+.brand-cetaphil img { max-height: 40px; }
+.brand-nivea img { max-height: 46px; }
+.brand-text span { font-family: var(--display); font-weight: 700; font-size: 19px; letter-spacing: -0.04em; color: var(--ink-2); }
+@media (max-width: 1000px) { .brand-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (max-width: 600px) { .brand-grid { grid-template-columns: repeat(3, 1fr); } .brand { height: 64px; padding: 10px; } }
