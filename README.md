@@ -23,8 +23,7 @@ Search the HTML for `[` to find every placeholder.
 - **Case studies:** role, timeframe, one outcome number, "What I learned", and 2 visuals per study.
   - Vert: installs/views driven, CPI, renewal rate, negotiation savings, Content Hub time saved, or IG growth.
   - Lazada: 3.3 Megasale GMV/orders, or the sign-up lift from the onboarding redesign.
-- **Media:** reel embed, brand video embeds with view counts, Spikers' Turf and B.LEAGUE/FIBA U16 details, YouTube link, and the producer testimonial.
-- **Home:** testimonial quote.
+- **Media:** reel embed, brand video embeds with view counts, Spikers' Turf and B.LEAGUE/FIBA U16 details.
 - **About:** your story, bookshelf, podcasts, "Currently", and hobby photos.
 
 Videos: upload to YouTube (unlisted is fine), then replace each placeholder with
