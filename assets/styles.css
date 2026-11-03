@@ -552,3 +552,7 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
   .photo-wall.uaap .third { grid-column: span 1; }
   .photo-wall.uaap .third:last-child { grid-column: span 2; }
 }
+.photo-wall.sta { grid-column: 1 / -1; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 260px; gap: 8px; margin-top: 10px; }
+.photo-wall.sta .shot img { object-position: 50% 45%; }
+.photo-wall.sta figcaption { letter-spacing: 0; padding: 5px 9px; font-size: 10px; }
+@media (max-width: 760px) { .photo-wall.sta { grid-auto-rows: 180px; } .photo-wall.sta figcaption { display: none; } }
