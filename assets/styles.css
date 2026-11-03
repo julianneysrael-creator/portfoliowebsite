@@ -488,3 +488,18 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 .brand-oralb img { max-height: 30px; }
 .brand-maybelline img { max-height: 20px; }
 .brand-mediheal img { max-height: 18px; }
+
+/* ---------- Photo wall (Media) ---------- */
+.photo-wall { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 360px; gap: 14px; }
+.shot { position: relative; margin: 0; border-radius: var(--r); overflow: hidden; background: #dcdce3; }
+.shot.wide { grid-column: span 2; }
+.shot img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 25%; transition: transform .5s ease; }
+.shot:hover img { transform: scale(1.03); }
+.shot figcaption {
+  position: absolute; left: 12px; bottom: 12px; padding: 6px 12px; border-radius: 999px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: .04em; color: #fff;
+  background: rgba(28, 29, 36, .55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+@media (max-width: 760px) { .photo-wall { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 230px; } }
+.shot figcaption { white-space: nowrap; max-width: calc(100% - 24px); overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 760px) { .shot figcaption { font-size: 10px; padding: 5px 10px; left: 8px; bottom: 8px; } }
