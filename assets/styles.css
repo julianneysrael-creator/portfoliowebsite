@@ -523,3 +523,5 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 .video-card:hover { transform: translateY(-2px); }
 @media (max-width: 760px) { .visuals, .visuals.screens { grid-template-columns: 1fr; } .shot.screen { aspect-ratio: 16 / 10; min-height: 0; } .video-card { aspect-ratio: 16 / 10; } }
 @media (max-width: 760px) { .shot.video-card { aspect-ratio: 16 / 9; } }
+.photo-wall.three { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 420px; }
+@media (max-width: 760px) { .photo-wall.three { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 220px; gap: 8px; } .photo-wall.three figcaption { display: none; } }
