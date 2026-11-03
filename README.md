@@ -19,7 +19,7 @@ assets/img/           Put photos and screenshots here
 Search the HTML for `[` to find every placeholder.
 
 - **SheTalksAsia photos (Leadership & Impact → Volunteering, and Media → on screen):** 2–4 photos of you covering the UN Women leadership event and the SheTalksAsia Summit (live-posting, shooting, on site), plus 1–2 screenshots of posts or stories you made.
-- **Design work (Australian software company, Nov 2025 – Mar 2026):** wireframes you designed and the website you created. Send 3–5 screenshots (wireframe → final screens) and the live website link; they go in the design & product area of the toolkit on Marketing & Growth.
+- **Design work (Australian software company, Nov 2025 – Mar 2026):** wireframes, the brand book, and the website you created. Send 3–5 screenshots (wireframe → final screens, 1–2 brand book spreads) and the live website link; they go in the design & product area of the toolkit on Marketing & Growth.
 
 - **Resume:** add `assets/Jules-Ysrael-Resume.pdf`.
 - **About photo (optional):** the About page reuses `assets/img/headshot.jpg`; swap in a different shot if you like.
