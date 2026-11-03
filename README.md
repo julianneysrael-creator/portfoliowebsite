@@ -24,6 +24,7 @@ Search the HTML for `[` to find every placeholder.
   - Vert: installs/views driven, CPI, renewal rate, negotiation savings, Content Hub time saved, or IG growth.
   - Lazada: 3.3 Megasale GMV/orders, or the sign-up lift from the onboarding redesign.
 - **Coursework (Leadership & Impact → Education):** list the university subjects you took (Accounting, Law, and the rest) in place of `[Add more subjects]`.
+- **P&G final presentation link:** set the `links` URL for the Pampers case study (shows "link soon" until then).
 - **Commercials:** brand, title, year, and link for both commercials (Media page).
 - **Brand logos:** Oral-B, Maybelline, and Mediheal logo files for `assets/img/logos/` (they show as text until then).
 - **Media:** reel embed, brand video embeds with view counts, Spikers' Turf and B.LEAGUE/FIBA U16 details.
