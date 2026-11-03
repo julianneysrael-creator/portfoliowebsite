@@ -565,3 +565,5 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 .photo-wall.case-photos .shot img { object-position: 50% 35%; }
 @media (max-width: 760px) { .photo-wall.case-photos { grid-auto-rows: 260px; } }
 .nus-talk { max-width: 760px; }
+.shot.hero-shot { aspect-ratio: 16 / 10; margin: 0; }
+.shot.hero-shot img { object-position: 50% 40%; }
