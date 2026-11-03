@@ -541,3 +541,5 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 @media (max-width: 760px) { .photo-wall.nus.four { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 200px; } }
 .talks .video { aspect-ratio: 5 / 1; }
 @media (max-width: 600px) { .talks .video { aspect-ratio: 3 / 1; } }
+.visuals.slides.two { grid-template-columns: 1fr 1fr; }
+@media (max-width: 760px) { .visuals.slides.two { grid-template-columns: 1fr; } }
