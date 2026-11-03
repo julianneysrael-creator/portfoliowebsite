@@ -23,7 +23,7 @@ Search the HTML for `[` to find every placeholder.
 - **Case studies:** role, timeframe, one outcome number, "What I learned", and 2 visuals per study.
   - Vert: installs/views driven, CPI, renewal rate, negotiation savings, Content Hub time saved, or IG growth.
   - Lazada: 3.3 Megasale GMV/orders, or the sign-up lift from the onboarding redesign.
-- **Design case study (`work/design.html`):** company name, your title, the challenge, 2 result numbers, and Figma screenshots/prototype link.
+- **Coursework (Leadership & Impact → Education):** list the university subjects you took (Accounting, Law, and the rest) in place of `[Add more subjects]`.
 - **Toolkit:** replace `[Analytics & ads tools]` with the tools you actually use.
 - **Commercials:** brand, title, year, and link for both commercials (Media page).
 - **Brand logos:** Hallmark, Oral-B, Maybelline, and Mediheal logo files for `assets/img/logos/` (they show as text until then).
