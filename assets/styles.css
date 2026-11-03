@@ -556,3 +556,8 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 .photo-wall.sta .shot img { object-position: 50% 45%; }
 .photo-wall.sta figcaption { letter-spacing: 0; padding: 5px 9px; font-size: 10px; }
 @media (max-width: 760px) { .photo-wall.sta { grid-auto-rows: 180px; } .photo-wall.sta figcaption { display: none; } }
+.coursework { display: grid; gap: 8px; margin-top: 8px; }
+.coursework > div { display: grid; grid-template-columns: 120px 1fr; gap: 10px; align-items: start; }
+.coursework .cw-area { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding-top: 6px; }
+.coursework .chips { margin-top: 0; }
+@media (max-width: 600px) { .coursework > div { grid-template-columns: 1fr; gap: 4px; } .coursework .cw-area { padding-top: 0; } }
