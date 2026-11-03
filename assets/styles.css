@@ -510,3 +510,4 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 }
 .photo-wall.five figcaption { letter-spacing: 0; padding: 6px 10px; }
 @media (max-width: 760px) { .photo-wall.five .shot:last-child img { object-position: 50% 62%; } }
+.shot.tall { aspect-ratio: 3 / 4; }
