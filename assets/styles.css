@@ -485,3 +485,6 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 @media (max-width: 600px) { .tools-grid { grid-template-columns: 1fr; } }
 .brand-hallmark img { max-height: 40px; }
 .rows .row { align-content: start; }
+.brand-oralb img { max-height: 30px; }
+.brand-maybelline img { max-height: 20px; }
+.brand-mediheal img { max-height: 18px; }
