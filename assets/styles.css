@@ -585,3 +585,7 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
   .nav .nav-socials svg { width: 20px; height: 20px; }
   .logo { font-size: 18px; }
 }
+.photo-wall.travel { grid-template-columns: repeat(7, 1fr); grid-auto-rows: 340px; gap: 10px; }
+.photo-wall.travel figcaption { letter-spacing: 0; font-size: 10px; padding: 5px 9px; }
+@media (max-width: 1000px) { .photo-wall.travel { grid-template-columns: repeat(4, 1fr); grid-auto-rows: 280px; } }
+@media (max-width: 600px) { .photo-wall.travel { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 240px; } .photo-wall.travel .shot:last-child { grid-column: span 2; } }
