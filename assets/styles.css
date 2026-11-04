@@ -575,3 +575,13 @@ a.video:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(
 @media (max-width: 600px) { .shorts.top { grid-template-columns: repeat(3, 1fr); gap: 6px; } .shorts.top .video-caption { font-size: 11px; } }
 .shorts.five { grid-template-columns: repeat(5, 1fr); gap: 10px; }
 @media (max-width: 760px) { .shorts.five { grid-template-columns: repeat(2, 1fr); } }
+
+/* Phones: keep the bar to logo + Menu; social icons move into the open menu */
+.nav-socials { display: none; }
+@media (max-width: 600px) {
+  .bar-end .socials { display: none; }
+  .nav.open .nav-socials { display: flex; justify-content: center; gap: 10px; margin-top: 8px; padding: 6px; height: auto; }
+  .nav .nav-socials a { padding: 0; width: 44px; height: 44px; font-size: 0; }
+  .nav .nav-socials svg { width: 20px; height: 20px; }
+  .logo { font-size: 18px; }
+}
